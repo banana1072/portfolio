@@ -1,0 +1,28 @@
+@media screen and (max-width: 520px){ 
+
+    .main-home-container h1{
+        font-size:3.5rem;
+    }
+    .main-home-container h2{
+        font-size: 1.7rem;
+    }
+
+    .header-menu-button{
+        font-size:0.5rem;
+    }
+    .works{
+        display: flex;
+        flex-direction: column;
+    }
+    .work img{
+        width:100%;
+        height:auto;
+    }
+
+    #contact_me{
+        width:70%;
+    }
+    .address{
+        font-size:1.5rem;
+    }
+}

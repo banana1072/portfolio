@@ -15,14 +15,18 @@
         flex-direction: column;
         
     }
+    
+    .work{
+         width: 90%;
+        /* margin-bottom: 30px; */
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
     .work img{
         
         width:100%;
         height:auto;
-        width: 90%;
-        /* margin-bottom: 30px; */
-        margin: 0 auto;
-        padding-bottom: 30px;
+       
     }
 
     #contact_me{

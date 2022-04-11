@@ -137,4 +137,10 @@ renderer.render( scene, camera );
 
 }
 
-$("#main-home-animate").css({ 'position' : 'relative' , 'top' : '-９７０px','z-index':'-1',} );
+if (window.matchMedia('(max-width: 520px)').matches) {
+  //スマホ処理
+  $("#main-home-animate").css({ 'position' : 'relative' , 'top' : '-844px','z-index':'-1'} );
+} else if (window.matchMedia('(min-width:920px)').matches) {
+  //PC処理
+  $("#main-home-animate").css({ 'position' : 'relative' , 'top' : '-970px','z-index':'-1'} );
+}

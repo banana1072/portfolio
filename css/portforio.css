@@ -10,6 +10,7 @@ header{
     position: fixed;
     width:100%;
     transition: 1s;
+    
 }
 
 .header-container{
@@ -33,6 +34,7 @@ header{
     line-height: 40px;
     display: inline-block;
     margin-top:15px;
+    font-size:1.2rem;
 }
 
 .header-border{
@@ -89,11 +91,7 @@ header{
     padding: 40px 0px 30px 0px;
 }
 
-.main-about{
-    /* background-color:#00B8E6; */
-   
-    
-}
+
 
 .intro{
     /* width:80%;
@@ -106,9 +104,7 @@ header{
     font-size:1.5rem;
     line-height: 45px;
 }
-.main-skill{
-   /*  background-color:#0099BF; */
-}
+
 
 .skills{
     padding-bottom:70px;
@@ -179,7 +175,7 @@ header{
 }
 
 .work{
-    width:40%;
+    /*width:40%;*/
     margin-bottom: 30px;
 }
 

@@ -13,10 +13,16 @@
     .works{
         display: flex;
         flex-direction: column;
+        
     }
     .work img{
+        
         width:100%;
         height:auto;
+        width: 90%;
+        /* margin-bottom: 30px; */
+        margin: 0 auto;
+        padding-bottom: 30px;
     }
 
     #contact_me{

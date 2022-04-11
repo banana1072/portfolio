@@ -210,14 +210,14 @@ window.addEventListener( "scroll" ,function(){
 
   if (window.matchMedia('(max-width: 520px)').matches) {
     //スマホ処理
-    if( scroll > 3635 ){ 
+    if( scroll > 3595 ){ 
       document.body.style.backgroundColor = '#59c8df';
       contact_me.style.backgroundColor = "#1499BF";
   
-    }else if( scroll > 2600 ){
+    }else if( scroll > 2540 ){
       document.body.style.backgroundColor = '#d14d28';
       contact_me.style.backgroundColor = "#f45249";
-    }else if( scroll > 1800 ){
+    }else if( scroll > 1760 ){
       document.body.style.backgroundColor = '#2b9564';
     }else if( scroll > 345 ){
       document.body.style.backgroundColor = '#f5df65';

@@ -208,19 +208,38 @@ window.addEventListener( "scroll" ,function(){
   var main_contact = document.getElementsByClassName("main-contact")[0];
 
 
-  if( scroll > 2610 ){ 
-    document.body.style.backgroundColor = '#59c8df';
-    contact_me.style.backgroundColor = "#1499BF";
-
-  }else if( scroll > 1820 ){
-    document.body.style.backgroundColor = '#d14d28';
-    contact_me.style.backgroundColor = "#f45249";
-  }else if( scroll > 1040 ){
-    document.body.style.backgroundColor = '#2b9564';
-  }else if( scroll > 345 ){
-    document.body.style.backgroundColor = '#f5df65';
-  }else{
-    document.body.style.backgroundColor = '#59c8df';
+  if (window.matchMedia('(max-width: 520px)').matches) {
+    //スマホ処理
+    if( scroll > 3635 ){ 
+      document.body.style.backgroundColor = '#59c8df';
+      contact_me.style.backgroundColor = "#1499BF";
+  
+    }else if( scroll > 2600 ){
+      document.body.style.backgroundColor = '#d14d28';
+      contact_me.style.backgroundColor = "#f45249";
+    }else if( scroll > 1800 ){
+      document.body.style.backgroundColor = '#2b9564';
+    }else if( scroll > 345 ){
+      document.body.style.backgroundColor = '#f5df65';
+    }else{
+      document.body.style.backgroundColor = '#59c8df';
+    }
+  } else if (window.matchMedia('(min-width:920px)').matches) {
+    //PC処理
+    if( scroll > 2610 ){ 
+      document.body.style.backgroundColor = '#59c8df';
+      contact_me.style.backgroundColor = "#1499BF";
+  
+    }else if( scroll > 1820 ){
+      document.body.style.backgroundColor = '#d14d28';
+      contact_me.style.backgroundColor = "#f45249";
+    }else if( scroll > 1040 ){
+      document.body.style.backgroundColor = '#2b9564';
+    }else if( scroll > 345 ){
+      document.body.style.backgroundColor = '#f5df65';
+    }else{
+      document.body.style.backgroundColor = '#59c8df';
+    }
   }
   
 });

@@ -137,4 +137,4 @@ renderer.render( scene, camera );
 
 }
 
-$("#main-home-animate").css({ 'position' : 'relative' , 'top' : '-689px','z-index':'-1',} );
+$("#main-home-animate").css({ 'position' : 'relative' , 'top' : '-９７０px','z-index':'-1',} );

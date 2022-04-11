@@ -7,26 +7,27 @@
         font-size: 1.7rem;
     }
 
+    .intro p{
+        font-size: 1.1rem;
+    }
+
     .header-menu-button{
         font-size:0.5rem;
     }
     .works{
         display: flex;
         flex-direction: column;
-        
     }
-    
+
     .work{
-         width: 90%;
+        width: 90%;
         /* margin-bottom: 30px; */
         margin: 0 auto;
         padding-bottom: 30px;
     }
     .work img{
-        
         width:100%;
         height:auto;
-       
     }
 
     #contact_me{
@@ -34,5 +35,9 @@
     }
     .address{
         font-size:1.5rem;
+    }
+
+    .mail{
+        font-size:1.4rem;
     }
 }
